@@ -1,0 +1,54 @@
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+07F8CA10+07ECCA10 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..(THU.CST) os is loading ...
+
+Special kernel symbols:
+  entry  0x00100000 (phys)
+  etext  0x001035fc (phys)
+  edata  0x0010fa16 (phys)
+  end    0x00110d20 (phys)
+Kernel executable memory footprint: 68KB
+ebp:0x00007b28 eip:0x00100ab3 args:0x00010094 0x00010094 0x00007b58 0x00100096 
+    kern/debug/kdebug.c:306: print_stackframe+25
+ebp:0x00007b38 eip:0x00007b58 args:0x00000000 0x00000000 0x00000000 0x00007ba8 
+    <unknow>: -- 0x00007b57 --
+ebp:0x00007b58 eip:0x00000000 args:0x00000000 0x00007b80 0xffff0000 0x00007b84 
+    <unknow>: -- 0xffffffff --
+ebp:0x00007b78 eip:0xffff0000 args:0x00000000 0xffff0000 0x00007ba4 0x00000029 
+    <unknow>: -- 0xfffeffff --
+ebp:0x00007b98 eip:0x00007ba4 args:0x00000000 0x00100000 0xffff0000 0x0000001d 
+    <unknow>: -- 0x00007ba3 --
+ebp:0x00007bb8 eip:0xffff0000 args:0x0010361c 0x00103600 0x0000130a 0x00000000 
+    <unknow>: -- 0xfffeffff --
+ebp:0x00007be8 eip:0x0000130a args:0x00000000 0x00000000 0x00000000 0x00007c4f 
+    <unknow>: -- 0x00001309 --
+ebp:0x00007bf8 eip:0x00000000 args:0xc031fcfa 0xc08ed88e 0x64e4d08e 0xfa7502a8 
+    <unknow>: -- 0xffffffff --
+++ setup timer interrupts
+100 ticks
+End of Test.
+kernel panic at kern/trap/trap.c:18:
+    EOT: kernel seems ok.
+stack trackback:
+ebp:0x00007ad0 eip:0x00100ab3 args:0x001036c8 0x00007b14 0x00000012 0x00007b4c 
+    kern/debug/kdebug.c:306: print_stackframe+25
+ebp:0x00007b00 eip:0x00000012 args:0x0010398e 0x00000012 0x00103978 0x00000008 
+    <unknow>: -- 0x00000011 --
+ebp:0x00007b20 eip:0x00103978 args:0x00007b58 0x0010027f 0x00100228 0x00007b4c 
+    <unknow>: -- 0x00103977 --
+ebp:0x00007b50 eip:0x00100228 args:0x00007b7c 0x001002a6 0x00103912 0x00007b94 
+    kern/init/init.c:0: lab1_switch_test+61
+ebp:0x00007b70 eip:0x00103912 args:0x00007b7c 0x00000000 0x00010094 0x00007be8 
+    <unknow>: -- 0x00103911 --
+ebp:0x00007be8 eip:0x00010094 args:0x00000000 0x00000000 0x00000000 0x00007c4f 
+    <unknow>: -- 0x00010093 --
+ebp:0x00007bf8 eip:0x00000000 args:0xc031fcfa 0xc08ed88e 0x64e4d08e 0xfa7502a8 
+    <unknow>: -- 0xffffffff --
+Welcome to the kernel debug monitor!!
+Type 'help' for a list of commands.
+K> 
